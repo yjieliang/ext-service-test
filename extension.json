@@ -1,0 +1,19 @@
+{
+  "serviceCode":"ext-service-test",
+  "itemList":[
+    {
+      "itemCode":"jobDeploy",
+      "props":{
+        "entryResUrl":"index.html",
+        "data":{
+          "test":"hello world"
+        },
+        "options":{
+
+        },
+        "tooltip":"tip",
+        "iconUrl":"img/icon.png"
+      }
+    }
+  ]
+}
