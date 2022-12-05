@@ -9,6 +9,8 @@ ARG packageName
 
 # 设置环境变量
 ENV PACKAGE_NAME=${packageName}
+
+ENV SERVICE_CODE=$serviceCode
  
 # 维护者信息
 MAINTAINER carlyin carlyin@xxxx.com
