@@ -11,7 +11,7 @@ ARG packageName
 ENV PACKAGE_NAME=${packageName}
 
 ENV SERVICE_CODE=${serviceCode}
- 
+
 # 维护者信息
 MAINTAINER v_yjieliang
 
@@ -24,7 +24,7 @@ WORKDIR /data/ext/service
 ADD ./devops_release/* /data/ext/service/
 ADD start.sh /data/ext/service/start.sh
 
-COPY ./frontend/dist /usr/share/nginx/service/${serviceCode}/static
+COPY ./frontend/dist /usr/share/nginx/service/test12053/static
 
 # 设置ENTRYPOINT
 ENTRYPOINT ["/bin/sh", "/data/ext/service/start.sh"]
