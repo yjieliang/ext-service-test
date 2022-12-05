@@ -10,10 +10,10 @@ ARG packageName
 # 设置环境变量
 ENV PACKAGE_NAME=${packageName}
 
-ENV SERVICE_CODE=$serviceCode
+ENV SERVICE_CODE=${serviceCode}
  
 # 维护者信息
-MAINTAINER carlyin carlyin@xxxx.com
+MAINTAINER v_yjieliang
 
 # 设置工作目录
 WORKDIR /data/ext/service
