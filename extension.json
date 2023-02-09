@@ -1,8 +1,8 @@
 {
-  "serviceCode":"test12053",
+  "serviceCode":"ext-test1",
   "itemList":[
     {
-      "itemCode":"jobDeploy",
+      "itemCode":"envNav",
       "props":{
         "entryResUrl":"index.html",
         "data":{

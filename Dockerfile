@@ -24,7 +24,6 @@ WORKDIR /data/ext/service
 ADD ./devops_release/* /data/ext/service/
 ADD start.sh /data/ext/service/start.sh
 
-COPY ./frontend/dist /usr/share/nginx/service/test12053/static
-
+COPY ./frontend/dist /usr/share/nginx/static
 # 设置ENTRYPOINT
 ENTRYPOINT ["/bin/sh", "/data/ext/service/start.sh"]
